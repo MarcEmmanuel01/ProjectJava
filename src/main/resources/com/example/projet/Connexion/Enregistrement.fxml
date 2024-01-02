@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="711.0" prefWidth="545.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="127.0" fitWidth="97.0" layoutX="39.0" layoutY="70.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../image%20utilisé/service-de-blanchisserie.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="40.0" layoutY="167.0" prefHeight="52.0" prefWidth="382.0" text="FORMULAIRE D'INSCRIPTION">
+         <font>
+            <Font name="Britannic Bold" size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="39.0" layoutY="206.0" prefHeight="30.0" prefWidth="409.0" text="Remplissez le formulaire pour vous inscrire" textFill="#aba2a2">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="23.0" fitWidth="23.0" layoutX="508.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../image%20utilisé/fermer.png" />
+         </image>
+      </ImageView>
+      <JFXTextField focusColor="#68b3c6" layoutX="67.0" layoutY="273.0" prefHeight="35.0" prefWidth="367.0" promptText="Utilisateur" unFocusColor="#030303">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </JFXTextField>
+      <ImageView fitHeight="16.0" fitWidth="17.0" layoutX="20.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../image%20utilisé/fleche-gauche.png" />
+         </image>
+      </ImageView>
+      <JFXTextField focusColor="#68b3c6" layoutX="67.0" layoutY="336.0" prefHeight="35.0" prefWidth="367.0" promptText="Email / Numero de telephone" unFocusColor="#030303">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField focusColor="#68b3c6" layoutX="67.0" layoutY="403.0" prefHeight="35.0" prefWidth="367.0" promptText="Mot de passe" unFocusColor="#030303">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField focusColor="#68b3c6" layoutX="67.0" layoutY="474.0" prefHeight="35.0" prefWidth="367.0" promptText="Confirmez Mot de passe" unFocusColor="#030303">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </JFXTextField>
+      <JFXButton layoutX="67.0" layoutY="549.0" prefHeight="62.0" prefWidth="367.0" style="-fx-background-color: #68b3c6;" text="S'INSCRIRE" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>
